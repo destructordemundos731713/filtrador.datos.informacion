@@ -1,0 +1,11 @@
+datos = [5, 12, 3, 18, 7, 25, 1, 14]
+datos_filtrados = []
+
+for numero in datos:
+    if numero > 10:
+        datos_filtrados.append(numero)
+    else:
+        pass # Significa "no haga nada" y pase al siguiente
+
+print("Datos originales:", datos)
+print("Datos mayores a 10:", datos_filtrados)
